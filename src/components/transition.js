@@ -16,8 +16,7 @@ const getTransitionStyles = {
     },
     exiting: {
         transition: `all ${timeout}ms ease-in-out`,
-        opacity: 0,
-        transform: 'translateY(-300px)',
+        opacity: 0
     },
 }
 
